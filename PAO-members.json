@@ -1,0 +1,49 @@
+{
+  "provinces": [
+    {
+      "name": "หนองคาย",
+      "members": [
+        {
+          "name": "นางสาวนิษฐา โชคคูหาพานิช",
+          "district": "เมืองหนองคาย เขต 4",
+          "image": "member1.jpg"
+        },
+        {
+          "name": "นายธนัญชัย พรหมโคตร",
+          "district": "เมืองหนองคาย เขต 5",
+          "image": "member2.jpg"
+        },
+        {
+          "name": "นายชวนากร สุวรรมาติ",
+          "district": "เมืองหนองคาย เขต 6",
+          "image": "member3.jpg"
+        },
+        {
+          "name": "นายนเรศ ศรีจันทร์",
+          "district": "โพนพิสัย เขต 3",
+          "image": "member4.jpg"
+        },
+        {
+          "name": "นางสาวจิราภรณ์ คลังชำนาญ",
+          "district": "ท่าบ่อ เขต 2",
+          "image": "member5.jpg"
+        },
+        {
+          "name": "นายธีรพงษ์ เพียรสมภาร",
+          "district": "ท่าบ่อ เขต 3",
+          "image": "member6.jpg"
+        },
+        {
+          "name": "นายอรรถชัย โคตรชมภู",
+          "district": "ท่าบ่อ เขต 5",
+          "image": "member7.jpg"
+        },
+        {
+          "name": "นายสมบัติ อินทะพิมพ์",
+          "district": "สังคม",
+          "image": "member8.jpg"
+        }
+      ]
+    }
+  ]
+}
