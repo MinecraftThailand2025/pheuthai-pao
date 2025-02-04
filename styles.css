@@ -32,10 +32,12 @@
 
 /* Header */
 header {
-    background: #DC143C;
-    color: white;
+    background: #fff;
+    color: #21409A;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 5px 0px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 15px;
 }
 
