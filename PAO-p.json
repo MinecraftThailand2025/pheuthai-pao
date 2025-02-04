@@ -1,0 +1,19 @@
+{
+  "mayors": [
+    {
+      "name": "นายวุฒิไกร ช่างเหล็ก",
+      "province": "จังหวัดหนองคาย",
+      "image": "Nongkhai.png"
+    },
+    {
+      "name": "นาย B",
+      "province": "จังหวัด Y",
+      "image": "mayor2.jpg"
+    },
+    {
+      "name": "นาย C",
+      "province": "จังหวัด Z",
+      "image": "mayor3.jpg"
+    }
+  ]
+}
