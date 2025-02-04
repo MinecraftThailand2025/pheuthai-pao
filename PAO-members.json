@@ -6,42 +6,42 @@
         {
           "name": "นางสาวนิษฐา โชคคูหาพานิช",
           "district": "เมืองหนองคาย เขต 4",
-          "image": "member1.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายธนัญชัย พรหมโคตร",
           "district": "เมืองหนองคาย เขต 5",
-          "image": "member2.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายชวนากร สุวรรมาติ",
           "district": "เมืองหนองคาย เขต 6",
-          "image": "member3.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายนเรศ ศรีจันทร์",
           "district": "โพนพิสัย เขต 3",
-          "image": "member4.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางสาวจิราภรณ์ คลังชำนาญ",
           "district": "ท่าบ่อ เขต 2",
-          "image": "member5.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายธีรพงษ์ เพียรสมภาร",
           "district": "ท่าบ่อ เขต 3",
-          "image": "member6.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายอรรถชัย โคตรชมภู",
           "district": "ท่าบ่อ เขต 5",
-          "image": "member7.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายสมบัติ อินทะพิมพ์",
           "district": "สังคม",
-          "image": "member8.jpg"
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         }
       ]
     },
@@ -50,99 +50,123 @@
       "members": [
         {
           "name": "นางสาวฐานิสา จันทร์ประทีป",
-          "district": "เมืองอุดรธานี เขต 3"
+          "district": "เมืองอุดรธานี เขต 3",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายสัญญา แย้มบุปผา",
-          "district": "เมืองอุดรธานี เขต 5"
+          "district": "เมืองอุดรธานี เขต 5",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางสุธาทิภย์ วัฒนกูล",
-          "district": "เมืองอุดรธานี เขต 7"
+          "district": "เมืองอุดรธานี เขต 7",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายชำนาญ มาดขาว",
-          "district": "เมืองอุดรธานี เขต 8"
+          "district": "เมืองอุดรธานี เขต 8",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายยิ่งใหญ่ กองทอง",
-          "district": "เมืองอุดรธานี เขต 9"
+          "district": "เมืองอุดรธานี เขต 9",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายสุรศักดิ์ พิทักษ์บ่อแก้ว",
-          "district": "เมืองอุดรธานี เขต 10"
+          "district": "เมืองอุดรธานี เขต 10",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายภาคภูมิ ปุผมาศ",
-          "district": "เมืองอุดรธานี เขต 11"
+          "district": "เมืองอุดรธานี เขต 11",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายณัฐพล เรืองเศรษฐี",
-          "district": "กุมภวาปี เขต 1"
+          "district": "กุมภวาปี เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายวีรยุทธ ลุนสะแกวงษ์",
-          "district": "กุมภวาปี เขต 2"
+          "district": "กุมภวาปี เขต 2",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายบัญชา ปานเชียงวงศ์",
-          "district": "กุมภวาปี เขต 3"
+          "district": "กุมภวาปี เขต 3",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายอภิชาติ คงทวี",
-          "district": "บ้านดุง เขต 1"
+          "district": "บ้านดุง เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "จ่าสิบตรีวิทยา จันทร์เขียว",
-          "district": "บ้านดุง เขต 2"
+          "district": "บ้านดุง เขต 2",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางสาววราภรณ์ พรหมมาศ",
-          "district": "เพ็ญ เขต 1"
+          "district": "เพ็ญ เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางสาวเลียม ธุระพล",
-          "district": "เพ็ญ เขต 3"
+          "district": "เพ็ญ เขต 3",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายศิวพร วงษ์ดี",
-          "district": "หนองหาน เขต 1"
+          "district": "หนองหาน เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายจักรพงษ์ แสนคำ",
-          "district": "หนองหาน เขต 3"
+          "district": "หนองหาน เขต 3",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายวีระพล บุญมาตุ่น",
-          "district": "กุดจับ เขต 1"
+          "district": "กุดจับ เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางพนมพร ฝ้ายสีงาม",
-          "district": "หนองวัวซอ เขต 1"
+          "district": "หนองวัวซอ เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางประไพร ภูศิริต",
-          "district": "หนองวัวซอ เขต 2"
+          "district": "หนองวัวซอ เขต 2",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายธนวัฒน์ ขันธวิชัย",
-          "district": "ไชยวาน"
+          "district": "ไชยวาน",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายพิทักษ์ เหมือนสีเลา",
-          "district": "ทุ่งฝน"
+          "district": "ทุ่งฝน",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางสกุลรัตน์ อุ่นเที่ยว",
-          "district": "นายูง"
+          "district": "นายูง",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายธนภัทร สุขธนะ",
-          "district": "โนนสะอาด"
+          "district": "โนนสะอาด",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายอัมพร นนทพันธ์",
-          "district": "น้ำโสม"
+          "district": "น้ำโสม",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         }
       ]
     },
@@ -151,23 +175,28 @@
       "members": [
         {
           "name": "นางสาวชลิตา ไชยรา",
-          "district": "เมืองสกลนคร เขต 3"
+          "district": "เมืองสกลนคร เขต 3",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นางสาวสิริพร อินทรธรรม",
-          "district": "สว่างแดนดิน เขต 1"
+          "district": "สว่างแดนดิน เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายชูชาติ ชินทะวัน",
-          "district": "สว่างแดนดิน เขต 4"
+          "district": "สว่างแดนดิน เขต 4",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายปรีชา ชาเหลา",
-          "district": "อากาศอำนวย เขต 1"
+          "district": "อากาศอำนวย เขต 1",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         },
         {
           "name": "นายพงษ์สวัสดิ์ บงค์บุตร",
-          "district": "อากาศอำนวย เขต 2"
+          "district": "อากาศอำนวย เขต 2",
+          "image": "https://candidate.ptp.or.th/assets/logo/ptp_color.svg"
         }
       ]
     }
