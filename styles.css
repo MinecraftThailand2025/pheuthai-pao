@@ -54,7 +54,7 @@ header {
     align-items: center;
     padding: 0 1em;
 }
-
+header h3 {margin:0;}
 .logo {
     width: 50px;
     margin-right: 10px;
