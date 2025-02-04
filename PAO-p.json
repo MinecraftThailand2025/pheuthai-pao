@@ -6,14 +6,14 @@
       "image": "Nongkhai.png"
     },
     {
-      "name": "นาย B",
-      "province": "จังหวัด Y",
-      "image": "mayor2.jpg"
+      "name": "นายศราวุธ เพชรพนมพร",
+      "province": "จังหวัดอุดรธานี",
+      "image": "udonthani.png"
     },
     {
       "name": "นาย C",
       "province": "จังหวัด Z",
-      "image": "mayor3.jpg"
+      "image": "sakon nakhon.jpg"
     }
   ]
 }
