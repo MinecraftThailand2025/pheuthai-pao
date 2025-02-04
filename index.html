@@ -26,70 +26,34 @@
 
         <!-- รายชื่อนายก อบจ. -->
         <div class="container">
-            <section class="list-section">
+            <section class="list-section" id="mayor-list">
                 <h2>รายชื่อนายก อบจ.</h2>
-                <div class="row">
-                    <div class="column">
-                        <img src="mayor1.jpg" alt="นายก อบจ. A">
-                        <p>นาย A - จังหวัด X</p>
-                    </div>
-                    <div class="column">
-                        <img src="mayor2.jpg" alt="นายก อบจ. B">
-                        <p>นาย B - จังหวัด Y</p>
-                    </div>
-                    <div class="column">
-                        <img src="mayor3.jpg" alt="นายก อบจ. C">
-                        <p>นาย C - จังหวัด Z</p>
-                    </div>
+                <div class="row" id="mayor-list-container">
+                    <!-- Dynamic content will be loaded here -->
                 </div>
             </section>
 
-        <!-- รายชื่อ ส.อบจ. -->
-        <section class="list-section">
-            <h2>รายชื่อ ส.อบจ.</h2>
-
-            <div class="province">
-                <h3>จังหวัด X</h3>
-                <div class="row">
-                    <div class="column">
-                        <img src="member1.jpg" alt="สมาชิก อบจ. D">
-                        <p>นาย D - เขต 1</p>
-                    </div>
-                    <div class="column">
-                        <img src="member2.jpg" alt="สมาชิก อบจ. E">
-                        <p>นาย E - เขต 2</p>
-                    </div>
+            <!-- รายชื่อ ส.อบจ. -->
+            <section class="list-section" id="member-list">
+                <h2>รายชื่อ ส.อบจ.</h2>
+                <div id="member-list-container">
+                    <!-- Dynamic content will be loaded here -->
                 </div>
-            </div>
+            </section>
 
-            <div class="province">
-                <h3>จังหวัด Y</h3>
-                <div class="row">
-                    <div class="column">
-                        <img src="member3.jpg" alt="สมาชิก อบจ. F">
-                        <p>นาย F - เขต 1</p>
-                    </div>
-                    <div class="column">
-                        <img src="member4.jpg" alt="สมาชิก อบจ. G">
-                        <p>นาย G - เขต 2</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- นโยบาย -->
-        <section class="policy-section">
-            <h2>นโยบาย</h2>
-            <p>เพิ่มงบประมาณพัฒนาโครงสร้างพื้นฐาน</p>
-            <p>สนับสนุนการศึกษาและสวัสดิการประชาชน</p>
-        </section>
-
-        <!-- ผลงาน -->
-        <section class="achievement-section">
-            <h2>ผลงาน</h2>
-            <p>สร้างสะพานข้ามแม่น้ำ 10 แห่ง</p>
-            <p>สนับสนุนโครงการน้ำสะอาดใน 50 เขต</p>
-        </section>
+            <!-- นโยบาย -->
+            <section class="policy-section">
+                <h2>นโยบาย</h2>
+                <p>เพิ่มงบประมาณพัฒนาโครงสร้างพื้นฐาน</p>
+                <p>สนับสนุนการศึกษาและสวัสดิการประชาชน</p>
+            </section>
+    
+            <!-- ผลงาน -->
+            <section class="achievement-section">
+                <h2>ผลงาน</h2>
+                <p>สร้างสะพานข้ามแม่น้ำ 10 แห่ง</p>
+                <p>สนับสนุนโครงการน้ำสะอาดใน 50 เขต</p>
+            </section>
         </div>
         
         <!-- Footer -->
@@ -98,13 +62,66 @@
         </footer>
     </div>
 
+    
     <script>
+        // Function to load the JSON data
+        function loadData() {
+            // Fetch the mayor data
+            fetch('PAO-p.json')
+                .then(response => response.json())
+                .then(data => {
+                    const mayorListContainer = document.getElementById('mayor-list-container');
+                    data.mayors.forEach(mayor => {
+                        const column = document.createElement('div');
+                        column.classList.add('column');
+                        column.innerHTML = `
+                            <img src="${mayor.image}" alt="นายก อบจ. ${mayor.name}">
+                            <p>${mayor.name} - จังหวัด ${mayor.province}</p>
+                        `;
+                        mayorListContainer.appendChild(column);
+                    });
+                })
+                .catch(error => console.error('Error loading mayor data:', error));
+
+            // Fetch the member data
+            fetch('PAO-members.json')
+                .then(response => response.json())
+                .then(data => {
+                    const memberListContainer = document.getElementById('member-list-container');
+                    data.provinces.forEach(province => {
+                        const provinceDiv = document.createElement('div');
+                        provinceDiv.classList.add('province');
+                        provinceDiv.innerHTML = `<h3>${province.name}</h3>`;
+
+                        const rowDiv = document.createElement('div');
+                        rowDiv.classList.add('row');
+                        
+                        province.members.forEach(member => {
+                            const column = document.createElement('div');
+                            column.classList.add('column');
+                            column.innerHTML = `
+                                <img src="${member.image}" alt="สมาชิก อบจ. ${member.name}">
+                                <p>${member.name} - เขต ${member.district}</p>
+                            `;
+                            rowDiv.appendChild(column);
+                        });
+
+                        provinceDiv.appendChild(rowDiv);
+                        memberListContainer.appendChild(provinceDiv);
+                    });
+                })
+                .catch(error => console.error('Error loading member data:', error));
+        }
+
+        // Hide loader and display content after the page is loaded
         function hideLoader() {
             setTimeout(() => {
                 document.getElementById("loader").style.display = "none";
                 document.getElementById("content").style.display = "block";
+                loadData(); // Load the data after the page is loaded
             }, 1500);
         }
     </script>
+
 </body>
 </html>
