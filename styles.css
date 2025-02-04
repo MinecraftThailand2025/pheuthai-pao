@@ -46,12 +46,13 @@
 
 /* Header */
 header {
+    height: 75ppx;
     background: #fff;
     color: #21409A;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 5px 0px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 0 1em;
 }
 
 .header h3 {
