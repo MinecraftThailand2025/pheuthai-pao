@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ptp-pao - องค์การบริหารส่วนจังหวัด</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="hideLoader()">
+    
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="content" style="display: none;">
+        <!-- Header -->
+        <header>
+            <img alt="โลโก้พรรคเพื่อไทย" src="https://candidate.ptp.or.th/assets/logo/ptp_color.svg" class="logo">
+            <h3>อบจ.</h3>
+        </header>
+
+        <!-- รายชื่อนายก อบจ. -->
+        <section class="list-section">
+            <h2>รายชื่อนายก อบจ.</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="mayor1.jpg" alt="นายก อบจ. A">
+                    <p>นาย A - จังหวัด X</p>
+                </div>
+                <div class="column">
+                    <img src="mayor2.jpg" alt="นายก อบจ. B">
+                    <p>นาย B - จังหวัด Y</p>
+                </div>
+                <div class="column">
+                    <img src="mayor3.jpg" alt="นายก อบจ. C">
+                    <p>นาย C - จังหวัด Z</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- รายชื่อ ส.อบจ. -->
+        <section class="list-section">
+            <h2>รายชื่อ ส.อบจ.</h2>
+
+            <div class="province">
+                <h3>จังหวัด X</h3>
+                <div class="row">
+                    <div class="column">
+                        <img src="member1.jpg" alt="สมาชิก อบจ. D">
+                        <p>นาย D - เขต 1</p>
+                    </div>
+                    <div class="column">
+                        <img src="member2.jpg" alt="สมาชิก อบจ. E">
+                        <p>นาย E - เขต 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="province">
+                <h3>จังหวัด Y</h3>
+                <div class="row">
+                    <div class="column">
+                        <img src="member3.jpg" alt="สมาชิก อบจ. F">
+                        <p>นาย F - เขต 1</p>
+                    </div>
+                    <div class="column">
+                        <img src="member4.jpg" alt="สมาชิก อบจ. G">
+                        <p>นาย G - เขต 2</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- นโยบาย -->
+        <section class="policy-section">
+            <h2>นโยบาย</h2>
+            <p>เพิ่มงบประมาณพัฒนาโครงสร้างพื้นฐาน</p>
+            <p>สนับสนุนการศึกษาและสวัสดิการประชาชน</p>
+        </section>
+
+        <!-- ผลงาน -->
+        <section class="achievement-section">
+            <h2>ผลงาน</h2>
+            <p>สร้างสะพานข้ามแม่น้ำ 10 แห่ง</p>
+            <p>สนับสนุนโครงการน้ำสะอาดใน 50 เขต</p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 ptp-pao | จัดทำโดย องค์การบริหารส่วนจังหวัด</p>
+        </footer>
+    </div>
+
+    <script>
+        function hideLoader() {
+            setTimeout(() => {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("content").style.display = "block";
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
