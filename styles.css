@@ -55,10 +55,6 @@ header {
     padding: 0 1em;
 }
 
-.header h3 {
-    display: flex
-}
-
 .logo {
     width: 50px;
     margin-right: 10px;
